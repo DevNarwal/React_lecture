@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.but{
+    margin-right: 10px;
+    height: 30px;
+    border:none;
+    background-color: white;
+    font-size: 20px;
+}
+.search textarea{
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.hero{
+    margin:30px 10px;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    padding: 15px;
+    justify-content: center ;
+   
+}
+.card{
+    background-color: rgb(59, 153, 59);
+    color: white;
+    border-radius: 5px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

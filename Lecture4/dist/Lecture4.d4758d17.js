@@ -160,7 +160,7 @@
       });
     }
   }
-})({"bZwKS":[function(require,module,exports,__globalThis) {
+})({"2Xjtg":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -168,7 +168,7 @@ var HMR_SERVER_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
-module.bundle.HMR_BUNDLE_ID = "db1fc2a0afbe3702";
+module.bundle.HMR_BUNDLE_ID = "7775b2fdd4758d17";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_SERVER_PORT, HMR_ENV_HASH, HMR_SECURE, HMR_USE_SSE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -666,12 +666,12 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     }
 }
 
-},{}],"40IbR":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$203d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$203d.init();
+},{}],"eUR4E":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$3460 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$3460.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
 var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$203d.prelude(module);
+$parcel$ReactRefreshHelpers$3460.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -680,246 +680,20 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-function Card(props) {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "card",
-        style: {
-            border: "2px solid black",
-            padding: "2px"
-        },
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                src: "https://image.hm.com/assets/hm/e4/89/e48924ece823f919263814643ee0aa14e5557bee.jpg?imwidth=1260",
-                height: "200px",
-                width: "200px"
-            }, void 0, false, {
-                fileName: "Lecture4/app.js",
-                lineNumber: 7,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    textAlign: "center"
-                },
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        children: props.name
-                    }, void 0, false, {
-                        fileName: "Lecture4/app.js",
-                        lineNumber: 9,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                        children: props.offer
-                    }, void 0, false, {
-                        fileName: "Lecture4/app.js",
-                        lineNumber: 10,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        children: "Shop Now"
-                    }, void 0, false, {
-                        fileName: "Lecture4/app.js",
-                        lineNumber: 11,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "Lecture4/app.js",
-                lineNumber: 8,
-                columnNumber: 13
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "Lecture4/app.js",
-        lineNumber: 6,
-        columnNumber: 9
-    }, this);
-}
-_c = Card;
-function Header() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "heading",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                src: " https://images.indianexpress.com/2021/01/myntra.png?w=640",
-                height: "60px",
-                width: "80px"
-            }, void 0, false, {
-                fileName: "Lecture4/app.js",
-                lineNumber: 21,
-                columnNumber: 9
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "section",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        className: "but",
-                        children: "Men"
-                    }, void 0, false, {
-                        fileName: "Lecture4/app.js",
-                        lineNumber: 24,
-                        columnNumber: 13
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        className: "but",
-                        children: "Women"
-                    }, void 0, false, {
-                        fileName: "Lecture4/app.js",
-                        lineNumber: 25,
-                        columnNumber: 13
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        className: "but",
-                        children: "Kids"
-                    }, void 0, false, {
-                        fileName: "Lecture4/app.js",
-                        lineNumber: 26,
-                        columnNumber: 13
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        className: "but",
-                        children: "Home & Living"
-                    }, void 0, false, {
-                        fileName: "Lecture4/app.js",
-                        lineNumber: 27,
-                        columnNumber: 13
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        className: "but",
-                        children: "Beauty"
-                    }, void 0, false, {
-                        fileName: "Lecture4/app.js",
-                        lineNumber: 28,
-                        columnNumber: 13
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        className: "but",
-                        children: "Studio"
-                    }, void 0, false, {
-                        fileName: "Lecture4/app.js",
-                        lineNumber: 29,
-                        columnNumber: 13
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "Lecture4/app.js",
-                lineNumber: 23,
-                columnNumber: 9
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "search",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
-                    placeholder: "Search for product, brands and more"
-                }, void 0, false, {
-                    fileName: "Lecture4/app.js",
-                    lineNumber: 33,
-                    columnNumber: 13
-                }, this)
-            }, void 0, false, {
-                fileName: "Lecture4/app.js",
-                lineNumber: 32,
-                columnNumber: 9
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "inventory",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        className: "but",
-                        children: "Profile"
-                    }, void 0, false, {
-                        fileName: "Lecture4/app.js",
-                        lineNumber: 36,
-                        columnNumber: 13
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        className: "but",
-                        children: "Wishlist"
-                    }, void 0, false, {
-                        fileName: "Lecture4/app.js",
-                        lineNumber: 37,
-                        columnNumber: 13
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        className: "but",
-                        children: "Cart"
-                    }, void 0, false, {
-                        fileName: "Lecture4/app.js",
-                        lineNumber: 38,
-                        columnNumber: 13
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "Lecture4/app.js",
-                lineNumber: 35,
-                columnNumber: 9
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "Lecture4/app.js",
-        lineNumber: 20,
-        columnNumber: 9
-    }, this);
-}
-_c1 = Header;
-function Footer() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "footer",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-            src: "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/2/hYrwC3lx_92a2244d07d546128e17e7b73f87e4c0.jpg",
-            width: "90%"
-        }, void 0, false, {
-            fileName: "Lecture4/app.js",
-            lineNumber: 47,
-            columnNumber: 13
-        }, this)
-    }, void 0, false, {
-        fileName: "Lecture4/app.js",
-        lineNumber: 46,
-        columnNumber: 9
-    }, this);
-}
-_c2 = Footer;
-const arr = [
-    {
-        name: "T-shirt",
-        offer: "40-80%"
-    },
-    {
-        name: "Shirt",
-        offer: "10-90%"
-    },
-    {
-        name: "Skirt",
-        offer: "4-80%"
-    },
-    {
-        name: "Belts",
-        offer: "40-80%"
-    },
-    {
-        name: "Tie",
-        offer: "4-8%"
-    },
-    {
-        name: "bow",
-        offer: "upto 90%off"
-    },
-    {
-        name: "gown",
-        offer: "upto 80%off"
-    },
-    {
-        name: "Ethnics",
-        offer: "70% off"
-    }
-];
+var _cardJs = require("./components/Card.js");
+var _cardJsDefault = parcelHelpers.interopDefault(_cardJs);
+var _headerJs = require("./components/Header.js");
+var _headerJsDefault = parcelHelpers.interopDefault(_headerJs);
+var _footerJs = require("./components/Footer.js");
+var _footerJsDefault = parcelHelpers.interopDefault(_footerJs);
+var _dummyJs = require("./utils/dummy.js");
+var _dummyJsDefault = parcelHelpers.interopDefault(_dummyJs);
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
-                fileName: "Lecture4/app.js",
-                lineNumber: 55,
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerJsDefault.default), {}, void 0, false, {
+                fileName: "Lecture4/src/app.js",
+                lineNumber: 13,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -929,46 +703,43 @@ function App() {
                     gap: "10px",
                     flexWrap: "wrap"
                 },
-                children: arr.map((value, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Card, {
+                children: (0, _dummyJsDefault.default).map((value, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardJsDefault.default), {
                         name: value.name,
                         offer: value.offer
                     }, index, false, {
-                        fileName: "Lecture4/app.js",
-                        lineNumber: 61,
+                        fileName: "Lecture4/src/app.js",
+                        lineNumber: 19,
                         columnNumber: 40
                     }, this))
             }, void 0, false, {
-                fileName: "Lecture4/app.js",
-                lineNumber: 57,
+                fileName: "Lecture4/src/app.js",
+                lineNumber: 15,
                 columnNumber: 9
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Footer, {}, void 0, false, {
-                fileName: "Lecture4/app.js",
-                lineNumber: 67,
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerJsDefault.default), {}, void 0, false, {
+                fileName: "Lecture4/src/app.js",
+                lineNumber: 25,
                 columnNumber: 10
             }, this)
         ]
     }, void 0, true);
 }
-_c3 = App;
+_c = App;
 const rootreact = (0, _clientDefault.default).createRoot(document.getElementById('root'));
 rootreact.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
-    fileName: "Lecture4/app.js",
-    lineNumber: 73,
+    fileName: "Lecture4/src/app.js",
+    lineNumber: 31,
     columnNumber: 18
 }, undefined));
-var _c, _c1, _c2, _c3;
-$RefreshReg$(_c, "Card");
-$RefreshReg$(_c1, "Header");
-$RefreshReg$(_c2, "Footer");
-$RefreshReg$(_c3, "App");
+var _c;
+$RefreshReg$(_c, "App");
 
-  $parcel$ReactRefreshHelpers$203d.postlude(module);
+  $parcel$ReactRefreshHelpers$3460.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./components/Card.js":"7TrTX","./components/Header.js":"2vL0l","./components/Footer.js":"50XOe","./utils/dummy.js":"185ej"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -18675,6 +18446,306 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["bZwKS","40IbR"], "40IbR", "parcelRequire824b", {}, null, null, "http://localhost:1234")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"7TrTX":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$1638 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$1638.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$1638.prelude(module);
 
-//# sourceMappingURL=Lecture4.afbe3702.js.map
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+function Card(props) {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "card",
+        style: {
+            border: "2px solid black",
+            padding: "2px"
+        },
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: "https://image.hm.com/assets/hm/e4/89/e48924ece823f919263814643ee0aa14e5557bee.jpg?imwidth=1260",
+                height: "200px",
+                width: "200px"
+            }, void 0, false, {
+                fileName: "Lecture4/src/components/Card.js",
+                lineNumber: 5,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    textAlign: "center"
+                },
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: props.name
+                    }, void 0, false, {
+                        fileName: "Lecture4/src/components/Card.js",
+                        lineNumber: 7,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        children: props.offer
+                    }, void 0, false, {
+                        fileName: "Lecture4/src/components/Card.js",
+                        lineNumber: 8,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "Shop Now"
+                    }, void 0, false, {
+                        fileName: "Lecture4/src/components/Card.js",
+                        lineNumber: 9,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "Lecture4/src/components/Card.js",
+                lineNumber: 6,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "Lecture4/src/components/Card.js",
+        lineNumber: 4,
+        columnNumber: 9
+    }, this);
+}
+_c = Card;
+exports.default = Card;
+var _c;
+$RefreshReg$(_c, "Card");
+
+  $parcel$ReactRefreshHelpers$1638.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"2vL0l":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$2fd1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$2fd1.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$2fd1.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Header);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+function Header() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "heading",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: " https://images.indianexpress.com/2021/01/myntra.png?w=640",
+                height: "60px",
+                width: "80px"
+            }, void 0, false, {
+                fileName: "Lecture4/src/components/Header.js",
+                lineNumber: 5,
+                columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "section",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "but",
+                        children: "Men"
+                    }, void 0, false, {
+                        fileName: "Lecture4/src/components/Header.js",
+                        lineNumber: 8,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "but",
+                        children: "Women"
+                    }, void 0, false, {
+                        fileName: "Lecture4/src/components/Header.js",
+                        lineNumber: 9,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "but",
+                        children: "Kids"
+                    }, void 0, false, {
+                        fileName: "Lecture4/src/components/Header.js",
+                        lineNumber: 10,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "but",
+                        children: "Home & Living"
+                    }, void 0, false, {
+                        fileName: "Lecture4/src/components/Header.js",
+                        lineNumber: 11,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "but",
+                        children: "Beauty"
+                    }, void 0, false, {
+                        fileName: "Lecture4/src/components/Header.js",
+                        lineNumber: 12,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "but",
+                        children: "Studio"
+                    }, void 0, false, {
+                        fileName: "Lecture4/src/components/Header.js",
+                        lineNumber: 13,
+                        columnNumber: 13
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "Lecture4/src/components/Header.js",
+                lineNumber: 7,
+                columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "search",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                    placeholder: "Search for product, brands and more"
+                }, void 0, false, {
+                    fileName: "Lecture4/src/components/Header.js",
+                    lineNumber: 17,
+                    columnNumber: 13
+                }, this)
+            }, void 0, false, {
+                fileName: "Lecture4/src/components/Header.js",
+                lineNumber: 16,
+                columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "inventory",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "but",
+                        children: "Profile"
+                    }, void 0, false, {
+                        fileName: "Lecture4/src/components/Header.js",
+                        lineNumber: 20,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "but",
+                        children: "Wishlist"
+                    }, void 0, false, {
+                        fileName: "Lecture4/src/components/Header.js",
+                        lineNumber: 21,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "but",
+                        children: "Cart"
+                    }, void 0, false, {
+                        fileName: "Lecture4/src/components/Header.js",
+                        lineNumber: 22,
+                        columnNumber: 13
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "Lecture4/src/components/Header.js",
+                lineNumber: 19,
+                columnNumber: 9
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "Lecture4/src/components/Header.js",
+        lineNumber: 4,
+        columnNumber: 9
+    }, this);
+}
+_c = Header;
+var _c;
+$RefreshReg$(_c, "Header");
+
+  $parcel$ReactRefreshHelpers$2fd1.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"50XOe":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$1ff9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$1ff9.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$1ff9.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+function Footer() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "footer",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+            src: "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/2/hYrwC3lx_92a2244d07d546128e17e7b73f87e4c0.jpg",
+            width: "90%"
+        }, void 0, false, {
+            fileName: "Lecture4/src/components/Footer.js",
+            lineNumber: 5,
+            columnNumber: 13
+        }, this)
+    }, void 0, false, {
+        fileName: "Lecture4/src/components/Footer.js",
+        lineNumber: 4,
+        columnNumber: 9
+    }, this);
+}
+_c = Footer;
+exports.default = Footer;
+var _c;
+$RefreshReg$(_c, "Footer");
+
+  $parcel$ReactRefreshHelpers$1ff9.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"185ej":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+const arr = [
+    {
+        name: "T-shirt",
+        offer: "40-80%"
+    },
+    {
+        name: "Shirt",
+        offer: "10-90%"
+    },
+    {
+        name: "Skirt",
+        offer: "4-80%"
+    },
+    {
+        name: "Belts",
+        offer: "40-80%"
+    },
+    {
+        name: "Tie",
+        offer: "4-8%"
+    },
+    {
+        name: "bow",
+        offer: "upto 90%off"
+    },
+    {
+        name: "gown",
+        offer: "upto 80%off"
+    },
+    {
+        name: "Ethnics",
+        offer: "70% off"
+    }
+];
+//here we cant use export defulat before the const so 
+exports.default = arr;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["2Xjtg","eUR4E"], "eUR4E", "parcelRequire824b", {}, null, null, "http://localhost:1234")
+
+//# sourceMappingURL=Lecture4.d4758d17.js.map
