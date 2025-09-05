@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to right, #b23232,#17c1b3);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.but{
+    display: flex;
+    gap:20px;
+
+}
+button{
+    height: 50px;
+    width:200px;
+    border-radius:7px;
+    background-color: cornsilk;
+    
+}

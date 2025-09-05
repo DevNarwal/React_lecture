@@ -1,0 +1,26 @@
+body {
+  background: linear-gradient(to right, #b23232, #17c1b3);
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.but {
+  gap: 20px;
+  display: flex;
+}
+
+button {
+  background-color: #fff8dc;
+  border-radius: 7px;
+  width: 200px;
+  height: 50px;
+}
+/*# sourceMappingURL=Lecture5.3a01df49.css.map */
