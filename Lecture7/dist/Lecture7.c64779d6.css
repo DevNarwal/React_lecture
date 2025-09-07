@@ -1,0 +1,30 @@
+body {
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.hero {
+  background-color: #3691be;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 900px;
+  height: 250px;
+  display: flex;
+}
+
+.butt {
+  font-size: 20px;
+}
+
+span {
+  color: #fff;
+}
+/*# sourceMappingURL=Lecture7.c64779d6.css.map */
